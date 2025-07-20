@@ -223,10 +223,6 @@ export default {
   border-radius: 50%;
   cursor: pointer;
 }
-.prev:hover,
-.next:hover {
-  cursor: url(@/assets/img/logo/cursor-2.png) 10 20, auto;
-}
 .more {
   margin-top: 16px;
   font-size: 24px;
