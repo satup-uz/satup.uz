@@ -124,7 +124,7 @@
                 {{ $store.state.translations['main.subscription'] }}
               </h4>
               <div class="list" v-html="item.desc"></div>
-              <p class="price">Price: {{ item.price }}</p>
+              <p class="price">Price: ${{ item.price }} {{ $store.state.translations['main.permonth'] }}</p>
             </div>
             <div class="stick" v-if="pricing[0].tarifs.length > 1"></div>
           </div>
